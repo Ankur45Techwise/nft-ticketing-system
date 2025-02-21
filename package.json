@@ -21,10 +21,14 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
     "@openzeppelin/contracts": "^5.2.0",
     "dotenv": "^16.4.7",
     "ethers": "^5.7.2",
     "hardhat": "^2.22.18",
     "hardhat-deploy": "^0.14.0"
+  },
+  "dependencies": {
+    "path-browserify": "^1.0.1"
   }
 }
